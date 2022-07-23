@@ -1,0 +1,943 @@
+[2022-02-08 10:09:22,499] {processor.py:163} INFO - Started process (PID=259) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:09:22,512] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 10:09:22,551] {logging_mixin.py:109} INFO - [2022-02-08 10:09:22,551] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:09:31,007] {logging_mixin.py:109} INFO - [2022-02-08 10:09:30,980] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 10:09:31,143] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:09:31,301] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 8.825 seconds
+[2022-02-08 10:10:52,070] {processor.py:163} INFO - Started process (PID=345) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:10:52,085] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 10:10:52,105] {logging_mixin.py:109} INFO - [2022-02-08 10:10:52,104] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:10:53,057] {logging_mixin.py:109} INFO - [2022-02-08 10:10:53,049] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 10:10:53,130] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:10:53,218] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 1.196 seconds
+[2022-02-08 10:13:56,798] {processor.py:163} INFO - Started process (PID=674) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:13:56,802] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 10:13:56,805] {logging_mixin.py:109} INFO - [2022-02-08 10:13:56,804] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:13:57,120] {logging_mixin.py:109} INFO - [2022-02-08 10:13:57,116] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 10:13:57,145] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:13:57,182] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 0.389 seconds
+[2022-02-08 10:14:27,260] {processor.py:163} INFO - Started process (PID=775) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:14:27,272] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 10:14:27,276] {logging_mixin.py:109} INFO - [2022-02-08 10:14:27,275] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:14:27,614] {logging_mixin.py:109} INFO - [2022-02-08 10:14:27,610] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 10:14:27,640] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:14:27,681] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 0.428 seconds
+[2022-02-08 10:14:57,778] {processor.py:163} INFO - Started process (PID=858) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:14:57,782] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 10:14:57,784] {logging_mixin.py:109} INFO - [2022-02-08 10:14:57,783] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:14:58,078] {logging_mixin.py:109} INFO - [2022-02-08 10:14:58,074] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 10:14:58,100] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:14:58,138] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 0.365 seconds
+[2022-02-08 10:20:47,748] {processor.py:163} INFO - Started process (PID=276) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:20:47,772] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 10:20:47,787] {logging_mixin.py:109} INFO - [2022-02-08 10:20:47,778] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:20:50,732] {logging_mixin.py:109} INFO - [2022-02-08 10:20:50,689] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 10:20:51,059] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:20:51,345] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 3.641 seconds
+[2022-02-08 10:22:35,393] {processor.py:163} INFO - Started process (PID=333) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:22:35,416] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 10:22:35,444] {logging_mixin.py:109} INFO - [2022-02-08 10:22:35,444] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:22:41,088] {logging_mixin.py:109} INFO - [2022-02-08 10:22:41,046] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 10:22:41,368] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:22:41,502] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 6.211 seconds
+[2022-02-08 10:24:05,503] {processor.py:163} INFO - Started process (PID=489) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:24:05,579] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 10:24:05,659] {logging_mixin.py:109} INFO - [2022-02-08 10:24:05,650] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:24:11,521] {logging_mixin.py:109} INFO - [2022-02-08 10:24:11,235] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 10:24:11,856] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:24:12,272] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 6.889 seconds
+[2022-02-08 10:26:10,822] {processor.py:163} INFO - Started process (PID=609) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:26:10,906] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 10:26:10,934] {logging_mixin.py:109} INFO - [2022-02-08 10:26:10,934] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:26:15,381] {logging_mixin.py:109} INFO - [2022-02-08 10:26:15,302] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 10:26:15,772] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:26:15,954] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 6.787 seconds
+[2022-02-08 10:28:22,751] {processor.py:163} INFO - Started process (PID=744) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:28:22,982] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 10:28:23,206] {logging_mixin.py:109} INFO - [2022-02-08 10:28:23,189] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:28:51,627] {logging_mixin.py:109} INFO - [2022-02-08 10:28:51,287] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 10:28:53,377] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 10:28:54,132] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 31.574 seconds
+[2022-02-08 11:05:11,223] {processor.py:163} INFO - Started process (PID=311) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 11:05:11,272] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 11:05:11,284] {logging_mixin.py:109} INFO - [2022-02-08 11:05:11,284] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 11:05:22,891] {logging_mixin.py:109} INFO - [2022-02-08 11:05:22,820] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 11:05:23,126] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 11:05:23,301] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 12.140 seconds
+[2022-02-08 11:07:45,244] {processor.py:163} INFO - Started process (PID=456) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 11:07:45,280] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 11:07:45,319] {logging_mixin.py:109} INFO - [2022-02-08 11:07:45,318] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 11:07:55,427] {logging_mixin.py:109} INFO - [2022-02-08 11:07:55,338] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 11:07:55,780] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 11:07:56,356] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 11.230 seconds
+[2022-02-08 11:10:18,115] {processor.py:163} INFO - Started process (PID=656) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 11:10:18,175] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 11:10:18,209] {logging_mixin.py:109} INFO - [2022-02-08 11:10:18,208] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 11:18:25,620] {processor.py:163} INFO - Started process (PID=404) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 11:18:26,013] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 11:18:26,448] {logging_mixin.py:109} INFO - [2022-02-08 11:18:26,324] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 11:19:04,432] {logging_mixin.py:109} INFO - [2022-02-08 11:19:04,356] {timeout.py:36} ERROR - Process timed out, PID: 404
+[2022-02-08 11:19:05,331] {logging_mixin.py:109} INFO - [2022-02-08 11:19:04,588] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 14, in <module>
+    from airflow.providers.amazon.aws.sensors.emr_step import EmrStepSensor
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/sensors/emr_step.py", line 21, in <module>
+    from airflow.providers.amazon.aws.sensors.emr_base import EmrBaseSensor
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/sensors/emr_base.py", line 22, in <module>
+    from airflow.providers.amazon.aws.hooks.emr import EmrHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/emr.py", line 21, in <module>
+    from airflow.providers.amazon.aws.hooks.base_aws import AwsBaseHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 34, in <module>
+    import boto3
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/__init__.py", line 16, in <module>
+    from boto3.session import Session
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/session.py", line 17, in <module>
+    import botocore.session
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/session.py", line 30, in <module>
+    import botocore.client
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 27, in <module>
+    from botocore.paginate import Paginator
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 857, in get_code
+  File "<frozen importlib._bootstrap_external>", line 525, in _compile_bytecode
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/ops_cdc_workflow.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 404
+[2022-02-08 11:19:06,968] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 11:19:08,881] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 43.522 seconds
+[2022-02-08 11:21:26,377] {processor.py:163} INFO - Started process (PID=604) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 11:21:26,416] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 11:21:26,503] {logging_mixin.py:109} INFO - [2022-02-08 11:21:26,476] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 11:21:37,895] {logging_mixin.py:109} INFO - [2022-02-08 11:21:37,729] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 11:21:38,264] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 11:21:38,801] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 12.565 seconds
+[2022-02-08 11:23:05,553] {processor.py:163} INFO - Started process (PID=691) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 11:23:05,681] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 11:23:05,705] {logging_mixin.py:109} INFO - [2022-02-08 11:23:05,705] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 11:23:15,721] {logging_mixin.py:109} INFO - [2022-02-08 11:23:15,453] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 11:23:16,852] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 11:23:18,047] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 12.725 seconds
+[2022-02-08 11:31:59,072] {processor.py:163} INFO - Started process (PID=463) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 11:31:59,125] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 11:31:59,232] {logging_mixin.py:109} INFO - [2022-02-08 11:31:59,211] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:35:15,009] {processor.py:163} INFO - Started process (PID=297) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:35:15,030] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 12:35:15,051] {logging_mixin.py:109} INFO - [2022-02-08 12:35:15,050] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:35:18,266] {logging_mixin.py:109} INFO - [2022-02-08 12:35:18,241] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 12:35:18,380] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:35:18,536] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 3.578 seconds
+[2022-02-08 12:36:10,644] {processor.py:163} INFO - Started process (PID=402) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:36:10,676] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 12:36:10,691] {logging_mixin.py:109} INFO - [2022-02-08 12:36:10,691] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:36:17,766] {logging_mixin.py:109} INFO - [2022-02-08 12:36:17,733] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 12:36:18,003] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:36:18,223] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 7.624 seconds
+[2022-02-08 12:38:21,382] {processor.py:163} INFO - Started process (PID=448) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:38:21,414] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 12:38:21,443] {logging_mixin.py:109} INFO - [2022-02-08 12:38:21,438] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:38:25,654] {logging_mixin.py:109} INFO - [2022-02-08 12:38:25,620] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 12:38:25,830] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:38:25,935] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 4.577 seconds
+[2022-02-08 12:39:31,756] {processor.py:163} INFO - Started process (PID=498) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:39:31,803] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 12:39:31,826] {logging_mixin.py:109} INFO - [2022-02-08 12:39:31,825] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:39:37,064] {logging_mixin.py:109} INFO - [2022-02-08 12:39:36,974] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 12:39:37,261] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:39:37,528] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 5.814 seconds
+[2022-02-08 12:41:21,530] {processor.py:163} INFO - Started process (PID=657) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:41:21,581] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 12:41:21,634] {logging_mixin.py:109} INFO - [2022-02-08 12:41:21,631] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:41:49,987] {logging_mixin.py:109} INFO - [2022-02-08 12:41:41,150] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 12:42:19,463] {processor.py:163} INFO - Started process (PID=663) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:42:19,527] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 12:42:19,602] {logging_mixin.py:109} INFO - [2022-02-08 12:42:19,596] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:42:24,625] {logging_mixin.py:109} INFO - [2022-02-08 12:42:24,559] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 12:42:25,175] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:42:25,690] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 6.292 seconds
+[2022-02-08 12:44:02,959] {processor.py:163} INFO - Started process (PID=819) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:44:02,992] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 12:44:03,023] {logging_mixin.py:109} INFO - [2022-02-08 12:44:03,022] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:44:14,115] {logging_mixin.py:109} INFO - [2022-02-08 12:44:13,982] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 12:44:14,945] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:44:15,605] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 12.785 seconds
+[2022-02-08 12:45:27,305] {processor.py:163} INFO - Started process (PID=931) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:45:27,318] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 12:45:27,340] {logging_mixin.py:109} INFO - [2022-02-08 12:45:27,339] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:45:33,794] {logging_mixin.py:109} INFO - [2022-02-08 12:45:33,683] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 12:45:34,184] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:45:34,718] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 7.455 seconds
+[2022-02-08 12:46:43,840] {processor.py:163} INFO - Started process (PID=1036) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:46:43,882] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 12:46:43,902] {logging_mixin.py:109} INFO - [2022-02-08 12:46:43,902] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:46:50,092] {logging_mixin.py:109} INFO - [2022-02-08 12:46:49,932] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 12:46:50,691] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:46:51,348] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 7.618 seconds
+[2022-02-08 12:48:44,263] {processor.py:163} INFO - Started process (PID=1142) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:48:44,353] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 12:48:44,453] {logging_mixin.py:109} INFO - [2022-02-08 12:48:44,448] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:48:58,752] {logging_mixin.py:109} INFO - [2022-02-08 12:48:58,697] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 12:48:59,424] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 12:49:00,058] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 15.932 seconds
+[2022-02-08 16:01:08,907] {processor.py:163} INFO - Started process (PID=247) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:01:08,923] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 16:01:08,932] {logging_mixin.py:109} INFO - [2022-02-08 16:01:08,932] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:01:10,837] {logging_mixin.py:109} INFO - [2022-02-08 16:01:10,823] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 16:01:10,950] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:01:11,056] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 2.178 seconds
+[2022-02-08 16:12:39,066] {processor.py:163} INFO - Started process (PID=285) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:12:39,087] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 16:12:39,102] {logging_mixin.py:109} INFO - [2022-02-08 16:12:39,099] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:12:41,560] {logging_mixin.py:109} INFO - [2022-02-08 16:12:41,541] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 16:12:41,665] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:12:41,768] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 2.758 seconds
+[2022-02-08 16:13:32,159] {processor.py:163} INFO - Started process (PID=400) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:13:32,169] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 16:13:32,184] {logging_mixin.py:109} INFO - [2022-02-08 16:13:32,183] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:13:36,714] {logging_mixin.py:109} INFO - [2022-02-08 16:13:36,648] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 16:13:37,051] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:13:37,232] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 5.080 seconds
+[2022-02-08 16:17:51,351] {processor.py:163} INFO - Started process (PID=497) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:17:51,406] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 16:17:51,561] {logging_mixin.py:109} INFO - [2022-02-08 16:17:51,519] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:18:21,023] {logging_mixin.py:109} INFO - [2022-02-08 16:18:18,911] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 16:18:25,913] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:18:27,525] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 35.590 seconds
+[2022-02-08 16:20:54,894] {processor.py:163} INFO - Started process (PID=657) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:20:54,997] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 16:20:55,006] {logging_mixin.py:109} INFO - [2022-02-08 16:20:55,004] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:21:04,242] {logging_mixin.py:109} INFO - [2022-02-08 16:21:04,143] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 16:21:04,545] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:21:05,347] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 10.480 seconds
+[2022-02-08 16:29:32,742] {processor.py:163} INFO - Started process (PID=399) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:29:32,754] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 16:29:32,766] {logging_mixin.py:109} INFO - [2022-02-08 16:29:32,760] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:29:36,929] {logging_mixin.py:109} INFO - [2022-02-08 16:29:36,884] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 16:29:37,179] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:29:37,394] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 4.800 seconds
+[2022-02-08 16:32:03,032] {processor.py:163} INFO - Started process (PID=527) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:32:03,042] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 16:32:03,058] {logging_mixin.py:109} INFO - [2022-02-08 16:32:03,052] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:32:11,659] {logging_mixin.py:109} INFO - [2022-02-08 16:32:11,541] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 16:32:13,255] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:32:13,574] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 10.565 seconds
+[2022-02-08 16:35:29,157] {processor.py:163} INFO - Started process (PID=697) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:35:29,215] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 16:35:29,254] {logging_mixin.py:109} INFO - [2022-02-08 16:35:29,249] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:35:34,993] {logging_mixin.py:109} INFO - [2022-02-08 16:35:34,897] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 16:35:35,492] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:35:35,832] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 6.747 seconds
+[2022-02-08 16:38:10,350] {processor.py:163} INFO - Started process (PID=875) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:38:10,398] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 16:38:10,409] {logging_mixin.py:109} INFO - [2022-02-08 16:38:10,408] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:38:14,952] {logging_mixin.py:109} INFO - [2022-02-08 16:38:14,883] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 16:38:15,462] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:38:15,862] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 5.607 seconds
+[2022-02-08 16:40:11,654] {processor.py:163} INFO - Started process (PID=1013) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:40:11,667] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 16:40:11,691] {logging_mixin.py:109} INFO - [2022-02-08 16:40:11,691] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:40:17,142] {logging_mixin.py:109} INFO - [2022-02-08 16:40:17,072] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 16:40:17,430] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 16:40:19,166] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 7.544 seconds
+[2022-02-08 17:12:35,170] {processor.py:163} INFO - Started process (PID=1047) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:12:35,298] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 17:12:35,341] {logging_mixin.py:109} INFO - [2022-02-08 17:12:35,316] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:12:41,026] {logging_mixin.py:109} INFO - [2022-02-08 17:12:40,913] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 17:12:41,532] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:12:42,041] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 7.680 seconds
+[2022-02-08 17:14:31,582] {processor.py:163} INFO - Started process (PID=1204) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:14:31,622] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 17:14:31,668] {logging_mixin.py:109} INFO - [2022-02-08 17:14:31,648] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:14:36,378] {logging_mixin.py:109} INFO - [2022-02-08 17:14:36,263] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 17:14:37,084] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:14:37,646] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 6.161 seconds
+[2022-02-08 17:15:42,116] {processor.py:163} INFO - Started process (PID=1319) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:15:42,158] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 17:15:42,200] {logging_mixin.py:109} INFO - [2022-02-08 17:15:42,200] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:15:46,128] {logging_mixin.py:109} INFO - [2022-02-08 17:15:46,018] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 17:15:46,473] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:15:46,906] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 4.866 seconds
+[2022-02-08 17:16:51,163] {processor.py:163} INFO - Started process (PID=1408) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:16:51,235] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 17:16:51,252] {logging_mixin.py:109} INFO - [2022-02-08 17:16:51,252] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:16:52,839] {logging_mixin.py:109} INFO - [2022-02-08 17:16:52,762] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 17:16:53,304] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:16:53,576] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 2.530 seconds
+[2022-02-08 17:17:41,101] {processor.py:163} INFO - Started process (PID=1475) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:17:41,138] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 17:17:41,185] {logging_mixin.py:109} INFO - [2022-02-08 17:17:41,170] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:18:20,188] {logging_mixin.py:109} INFO - [2022-02-08 17:18:20,163] {timeout.py:36} ERROR - Process timed out, PID: 1475
+[2022-02-08 17:18:50,040] {logging_mixin.py:109} INFO - [2022-02-08 17:18:20,235] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 14, in <module>
+    from airflow.providers.amazon.aws.sensors.emr_step import EmrStepSensor
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/sensors/emr_step.py", line 21, in <module>
+    from airflow.providers.amazon.aws.sensors.emr_base import EmrBaseSensor
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/sensors/emr_base.py", line 22, in <module>
+    from airflow.providers.amazon.aws.hooks.emr import EmrHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/emr.py", line 21, in <module>
+    from airflow.providers.amazon.aws.hooks.base_aws import AwsBaseHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 34, in <module>
+    import boto3
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/__init__.py", line 16, in <module>
+    from boto3.session import Session
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/session.py", line 25, in <module>
+    from .resources.factory import ResourceFactory
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/resources/factory.py", line 17, in <module>
+    from .action import ServiceAction
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 812, in get_code
+  File "<frozen importlib._bootstrap_external>", line 953, in path_stats
+  File "<frozen importlib._bootstrap_external>", line 81, in _path_stat
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/ops_cdc_workflow.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 1475
+[2022-02-08 17:19:01,188] {processor.py:163} INFO - Started process (PID=1509) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:19:01,317] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 17:19:01,400] {logging_mixin.py:109} INFO - [2022-02-08 17:19:01,398] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:19:05,792] {logging_mixin.py:109} INFO - [2022-02-08 17:19:05,604] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 17:19:06,229] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:19:06,644] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 5.499 seconds
+[2022-02-08 17:20:46,093] {processor.py:163} INFO - Started process (PID=1664) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:20:46,107] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 17:20:46,197] {logging_mixin.py:109} INFO - [2022-02-08 17:20:46,196] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:21:08,730] {logging_mixin.py:109} INFO - [2022-02-08 17:21:08,618] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 17:21:08,873] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:21:09,118] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 22.966 seconds
+[2022-02-08 17:22:01,871] {processor.py:163} INFO - Started process (PID=1750) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:22:01,919] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 17:22:01,953] {logging_mixin.py:109} INFO - [2022-02-08 17:22:01,953] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:22:06,371] {logging_mixin.py:109} INFO - [2022-02-08 17:22:06,338] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 17:22:06,639] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:22:06,905] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 5.083 seconds
+[2022-02-08 17:22:48,339] {processor.py:163} INFO - Started process (PID=1832) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:22:48,370] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 17:22:48,397] {logging_mixin.py:109} INFO - [2022-02-08 17:22:48,397] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:23:50,756] {logging_mixin.py:109} INFO - [2022-02-08 17:23:49,285] {timeout.py:36} ERROR - Process timed out, PID: 1832
+[2022-02-08 17:24:04,956] {processor.py:163} INFO - Started process (PID=1844) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:24:05,015] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 17:24:05,027] {logging_mixin.py:109} INFO - [2022-02-08 17:24:05,027] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:24:08,463] {logging_mixin.py:109} INFO - [2022-02-08 17:24:08,452] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 17:24:08,546] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:24:08,678] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 3.804 seconds
+[2022-02-08 17:25:06,809] {processor.py:163} INFO - Started process (PID=1963) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:25:06,831] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 17:25:06,849] {logging_mixin.py:109} INFO - [2022-02-08 17:25:06,849] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:25:50,317] {logging_mixin.py:109} INFO - [2022-02-08 17:25:49,408] {timeout.py:36} ERROR - Process timed out, PID: 1963
+[2022-02-08 17:26:19,453] {logging_mixin.py:109} INFO - [2022-02-08 17:25:59,908] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 14, in <module>
+    from airflow.providers.amazon.aws.sensors.emr_step import EmrStepSensor
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/sensors/emr_step.py", line 21, in <module>
+    from airflow.providers.amazon.aws.sensors.emr_base import EmrBaseSensor
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/sensors/emr_base.py", line 22, in <module>
+    from airflow.providers.amazon.aws.hooks.emr import EmrHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/emr.py", line 21, in <module>
+    from airflow.providers.amazon.aws.hooks.base_aws import AwsBaseHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 34, in <module>
+    import boto3
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/__init__.py", line 16, in <module>
+    from boto3.session import Session
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/session.py", line 25, in <module>
+    from .resources.factory import ResourceFactory
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 670, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 589, in module_from_spec
+  File "<frozen importlib._bootstrap>", line 553, in _init_module_attrs
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/ops_cdc_workflow.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 1963
+[2022-02-08 17:32:15,445] {processor.py:163} INFO - Started process (PID=1983) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:32:15,478] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 17:32:15,509] {logging_mixin.py:109} INFO - [2022-02-08 17:32:15,497] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:32:48,365] {logging_mixin.py:109} INFO - [2022-02-08 17:32:47,356] {timeout.py:36} ERROR - Process timed out, PID: 1983
+[2022-02-08 17:33:54,831] {processor.py:163} INFO - Started process (PID=2014) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:33:54,903] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 17:33:54,944] {logging_mixin.py:109} INFO - [2022-02-08 17:33:54,936] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:34:25,154] {logging_mixin.py:109} INFO - [2022-02-08 17:34:25,122] {timeout.py:36} ERROR - Process timed out, PID: 2014
+[2022-02-08 17:34:25,864] {logging_mixin.py:109} INFO - [2022-02-08 17:34:25,197] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 14, in <module>
+    from airflow.providers.amazon.aws.sensors.emr_step import EmrStepSensor
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/sensors/emr_step.py", line 21, in <module>
+    from airflow.providers.amazon.aws.sensors.emr_base import EmrBaseSensor
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/sensors/emr_base.py", line 22, in <module>
+    from airflow.providers.amazon.aws.hooks.emr import EmrHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/emr.py", line 21, in <module>
+    from airflow.providers.amazon.aws.hooks.base_aws import AwsBaseHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 34, in <module>
+    import boto3
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/__init__.py", line 16, in <module>
+    from boto3.session import Session
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/session.py", line 17, in <module>
+    import botocore.session
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/session.py", line 30, in <module>
+    import botocore.client
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 16, in <module>
+    from botocore.args import ClientArgsCreator
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/args.py", line 24, in <module>
+    import botocore.serialize
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/serialize.py", line 302, in <module>
+    class EC2Serializer(QuerySerializer):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/ops_cdc_workflow.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 2014
+[2022-02-08 17:34:30,650] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:34:31,269] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 36.559 seconds
+[2022-02-08 17:35:08,731] {processor.py:163} INFO - Started process (PID=2073) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:35:08,809] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 17:35:08,917] {logging_mixin.py:109} INFO - [2022-02-08 17:35:08,883] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:35:38,715] {logging_mixin.py:109} INFO - [2022-02-08 17:35:37,192] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 17:35:39,426] {logging_mixin.py:109} INFO - [2022-02-08 17:35:39,417] {timeout.py:36} ERROR - Process timed out, PID: 2073
+[2022-02-08 17:35:39,691] {logging_mixin.py:109} INFO - [2022-02-08 17:35:39,448] {dagbag.py:528} ERROR - DagBag import timeout for /opt/airflow/dags/ops_cdc_workflow.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 2073
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 515, in collect_dags
+    found_dags = self.process_file(filepath, only_if_updated=only_if_updated, safe_mode=safe_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 294, in process_file
+    mods = self._load_modules_from_file(filepath, safe_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 340, in _load_modules_from_file
+    self.import_errors[filepath] = str(e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/ops_cdc_workflow.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 2073
+[2022-02-08 17:35:41,590] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:35:43,046] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 34.824 seconds
+[2022-02-08 17:36:18,466] {processor.py:163} INFO - Started process (PID=2133) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:36:18,637] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 17:36:18,737] {logging_mixin.py:109} INFO - [2022-02-08 17:36:18,719] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:36:49,388] {logging_mixin.py:109} INFO - [2022-02-08 17:36:49,377] {timeout.py:36} ERROR - Process timed out, PID: 2133
+[2022-02-08 17:36:49,922] {logging_mixin.py:109} INFO - [2022-02-08 17:36:49,403] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 14, in <module>
+    from airflow.providers.amazon.aws.sensors.emr_step import EmrStepSensor
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/sensors/emr_step.py", line 21, in <module>
+    from airflow.providers.amazon.aws.sensors.emr_base import EmrBaseSensor
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/sensors/emr_base.py", line 22, in <module>
+    from airflow.providers.amazon.aws.hooks.emr import EmrHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/emr.py", line 21, in <module>
+    from airflow.providers.amazon.aws.hooks.base_aws import AwsBaseHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 34, in <module>
+    import boto3
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/__init__.py", line 16, in <module>
+    from boto3.session import Session
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/session.py", line 25, in <module>
+    from .resources.factory import ResourceFactory
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/resources/factory.py", line 17, in <module>
+    from .action import ServiceAction
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/resources/action.py", line 23, in <module>
+    from boto3.utils import inject_attribute
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/ops_cdc_workflow.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 2133
+[2022-02-08 17:36:51,739] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:36:55,607] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 37.687 seconds
+[2022-02-08 17:37:32,565] {processor.py:163} INFO - Started process (PID=2197) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:37:32,660] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 17:37:32,738] {logging_mixin.py:109} INFO - [2022-02-08 17:37:32,724] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:37:40,701] {logging_mixin.py:109} INFO - [2022-02-08 17:37:40,456] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 17:37:41,604] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:37:42,435] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 10.022 seconds
+[2022-02-08 17:45:02,389] {processor.py:163} INFO - Started process (PID=304) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:45:02,416] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 17:45:02,480] {logging_mixin.py:109} INFO - [2022-02-08 17:45:02,476] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:55:23,428] {processor.py:163} INFO - Started process (PID=511) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:55:23,440] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 17:55:23,464] {logging_mixin.py:109} INFO - [2022-02-08 17:55:23,457] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:55:32,078] {logging_mixin.py:109} INFO - [2022-02-08 17:55:32,063] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 17:55:32,709] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:55:33,069] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 9.713 seconds
+[2022-02-08 17:56:37,589] {processor.py:163} INFO - Started process (PID=559) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:56:37,700] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 17:56:37,781] {logging_mixin.py:109} INFO - [2022-02-08 17:56:37,781] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:57:07,889] {logging_mixin.py:109} INFO - [2022-02-08 17:57:07,800] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 17:57:07,978] {logging_mixin.py:109} INFO - [2022-02-08 17:57:07,977] {timeout.py:36} ERROR - Process timed out, PID: 559
+[2022-02-08 17:57:08,023] {logging_mixin.py:109} INFO - [2022-02-08 17:57:08,005] {dagbag.py:528} ERROR - DagBag import timeout for /opt/airflow/dags/ops_cdc_workflow.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 559
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 515, in collect_dags
+    found_dags = self.process_file(filepath, only_if_updated=only_if_updated, safe_mode=safe_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 294, in process_file
+    mods = self._load_modules_from_file(filepath, safe_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 340, in _load_modules_from_file
+    self.import_errors[filepath] = str(e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/ops_cdc_workflow.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 559
+[2022-02-08 17:57:08,416] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 17:57:08,665] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 31.206 seconds
+[2022-02-08 18:00:33,043] {processor.py:163} INFO - Started process (PID=749) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 18:00:33,064] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 18:00:33,095] {logging_mixin.py:109} INFO - [2022-02-08 18:00:33,088] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 18:00:40,236] {logging_mixin.py:109} INFO - [2022-02-08 18:00:40,205] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 18:00:40,418] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 18:00:40,781] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 7.748 seconds
+[2022-02-08 18:02:33,178] {processor.py:163} INFO - Started process (PID=917) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 18:02:33,259] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 18:02:33,272] {logging_mixin.py:109} INFO - [2022-02-08 18:02:33,271] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 18:02:39,900] {logging_mixin.py:109} INFO - [2022-02-08 18:02:39,873] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 18:02:40,162] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 18:02:40,579] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 7.526 seconds
+[2022-02-08 18:04:13,859] {processor.py:163} INFO - Started process (PID=1044) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 18:04:13,949] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 18:04:14,007] {logging_mixin.py:109} INFO - [2022-02-08 18:04:13,997] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 18:04:22,038] {logging_mixin.py:109} INFO - [2022-02-08 18:04:21,770] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 18:04:22,493] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 18:04:22,786] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 9.069 seconds
+[2022-02-08 18:05:53,413] {processor.py:163} INFO - Started process (PID=1102) to work on /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 18:05:53,478] {processor.py:642} INFO - Processing file /opt/airflow/dags/ops_cdc_workflow.py for tasks to queue
+[2022-02-08 18:05:53,586] {logging_mixin.py:109} INFO - [2022-02-08 18:05:53,578] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 18:05:58,335] {logging_mixin.py:109} INFO - [2022-02-08 18:05:58,244] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ops_cdc_workflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ops_cdc_workflow.py", line 22, in <module>
+    from src.lib.data_lib.workflow_configs import configuration_overrides_args_monitoring,job_driver_arg
+ModuleNotFoundError: No module named 'src'
+[2022-02-08 18:05:58,774] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ops_cdc_workflow.py
+[2022-02-08 18:05:59,162] {processor.py:171} INFO - Processing /opt/airflow/dags/ops_cdc_workflow.py took 5.820 seconds
